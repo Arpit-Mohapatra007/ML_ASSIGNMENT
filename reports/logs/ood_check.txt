@@ -1,0 +1,13 @@
+PNEUMONIA                                                649
+NORMAL                                                   259
+LOW CONFIDENCE - refer to a clinician                     63
+rejected: does not look like a paediatric chest X-ray      5
+Name: count, dtype: int64
+false reject rate 0.005122950819672131
+refer band share 0.06454918032786885
+accuracy outside band 0.9845814977973568 n 908
+pneumonia share inside band 0.8571428571428571
+noise.png ('rejected: does not look like a paediatric chest X-ray', None)
+white.png ('rejected: blank image', None)
+dog.jpg ('rejected: colour photo, not an X-ray', None)
+dog_grey.png ('rejected: does not look like a paediatric chest X-ray', None)

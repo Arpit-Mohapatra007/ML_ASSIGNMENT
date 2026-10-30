@@ -1,0 +1,7 @@
+seed 42
+/home/cse/mediscan/common.py:98: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:208.)
+  ix = torch.as_tensor(idx, device=dev)
+{'acc': 0.9754098360655737, 'bacc': 0.9676540687776642, 'prec': 0.9817927170868347, 'rec': 0.9845505617977528, 'spec': np.float64(0.9507575757575758), 'f1': 0.9831697054698457, 'roc': 0.9949033878106912, 'pr': 0.9980590112007939, 'tn': np.int64(251), 'fp': np.int64(13), 'fn': np.int64(11), 'tp': np.int64(701)}
+         acc   prec    rec   spec     f1    roc     pr
+0.025  0.966  0.972  0.975  0.924  0.977  0.991  0.997
+0.975  0.985  0.992  0.993  0.976  0.989  0.998  0.999

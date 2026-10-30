@@ -1,0 +1,322 @@
+seed 42
+seed 0
+/home/cse/mediscan/common.py:98: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:208.)
+  ix = torch.as_tensor(idx, device=dev)
+epoch 1 0.2933 0.1956
+epoch 2 0.2075 0.1851
+epoch 3 0.1883 0.1916
+epoch 4 0.1751 0.2335
+epoch 5 0.1717 0.5617
+epoch 6 0.1493 0.1632
+epoch 7 0.1485 0.1694
+epoch 8 0.1414 0.1993
+epoch 9 0.1532 0.2073
+epoch 10 0.1326 0.1705
+epoch 11 0.1425 0.5216
+seed 0
+epoch 1 0.3305 0.1938
+epoch 2 0.2453 0.2141
+epoch 3 0.2252 0.2871
+epoch 4 0.1975 0.4975
+epoch 5 0.2013 1.6503
+epoch 6 0.175 0.3866
+      model  thr    roc    rec   spec
+0      base  0.1  0.986  0.990  0.826
+1  weighted  0.1  0.970  0.997  0.409
+2      base  0.3  0.986  0.962  0.920
+3  weighted  0.3  0.970  0.985  0.742
+4      base  0.5  0.986  0.928  0.951
+5  weighted  0.5  0.970  0.952  0.864
+6      base  0.7  0.986  0.877  0.966
+7  weighted  0.7  0.970  0.907  0.924
+8      base  0.9  0.986  0.757  0.996
+9  weighted  0.9  0.970  0.795  0.962
+prob correlation base vs weighted 0.9219895539823847
+threshold 0.23128509521484375 fpr 0.08712121212121213 tpr 0.9789621318373072 cost per patient 0.12048482723447655
+PPV at camp prevalence 0.5552652751285923
+{'acc': 0.9569672131147541, 'bacc': 0.9490551583248212, 'prec': 0.9745042492917847, 'rec': 0.9662921348314607, 'spec': np.float64(0.9318181818181818), 'f1': 0.9703808180535967, 'roc': 0.9927062053115424, 'pr': 0.997336651431939, 'tn': np.int64(246), 'fp': np.int64(18), 'fn': np.int64(24), 'tp': np.int64(688)}
+seed 0
+epoch 1 0.3044 0.2966
+epoch 2 0.2095 0.2564
+epoch 3 0.1779 0.1742
+epoch 4 0.1768 0.1681
+epoch 5 0.1677 0.5929
+epoch 6 0.1528 0.3077
+epoch 7 0.1495 0.1458
+epoch 8 0.1397 0.3803
+epoch 9 0.1371 0.2695
+epoch 10 0.1334 0.3441
+epoch 11 0.128 0.1648
+epoch 12 0.1319 0.2147
+seed 0
+epoch 1 0.2963 0.2287
+epoch 2 0.2146 0.2708
+epoch 3 0.1924 0.1974
+epoch 4 0.1785 0.3179
+epoch 5 0.1661 0.9514
+epoch 6 0.153 0.5718
+epoch 7 0.1532 0.1804
+epoch 8 0.1422 0.1535
+epoch 9 0.1331 0.211
+epoch 10 0.1328 0.1633
+epoch 11 0.1256 0.2512
+epoch 12 0.1401 0.546
+epoch 13 0.1278 0.1556
+seed 0
+epoch 1 0.2944 0.2814
+epoch 2 0.2166 0.1981
+epoch 3 0.1889 0.2063
+epoch 4 0.177 0.16
+epoch 5 0.1777 0.6491
+epoch 6 0.1581 0.2132
+epoch 7 0.1549 0.3549
+epoch 8 0.1414 0.1332
+epoch 9 0.1379 0.2523
+epoch 10 0.14 0.306
+epoch 11 0.1416 0.2408
+epoch 12 0.1265 0.1731
+epoch 13 0.1229 0.1614
+seed 0
+epoch 1 0.3018 0.1967
+epoch 2 0.2287 0.2567
+epoch 3 0.1993 0.6042
+epoch 4 0.1777 0.1376
+epoch 5 0.1735 0.2562
+epoch 6 0.1554 0.1434
+epoch 7 0.1612 0.2166
+epoch 8 0.1404 0.228
+epoch 9 0.1438 0.1264
+epoch 10 0.1449 0.2518
+epoch 11 0.1309 0.173
+epoch 12 0.1285 0.1257
+epoch 13 0.1281 0.2108
+epoch 14 0.1239 0.1198
+epoch 15 0.1192 0.2002
+seed 0
+epoch 1 0.2872 0.778
+epoch 2 0.2206 0.3138
+epoch 3 0.1893 0.8184
+epoch 4 0.1766 0.2981
+epoch 5 0.1661 1.0367
+epoch 6 0.1601 0.2361
+epoch 7 0.1649 0.155
+epoch 8 0.1503 0.1457
+epoch 9 0.1502 0.1292
+epoch 10 0.1384 0.1756
+epoch 11 0.1257 0.1704
+epoch 12 0.1353 0.1617
+epoch 13 0.13 0.1359
+epoch 14 0.1276 0.1175
+epoch 15 0.119 0.1267
+        acc   prec   rec   spec     f1    roc     pr
+mean  0.952  0.965  0.97  0.902  0.967  0.986  0.994
+std   0.008  0.018  0.02  0.051  0.006  0.003  0.001
+seed 0
+epoch 1 0.2804 0.1751
+epoch 2 0.2014 0.1733
+epoch 3 0.1863 0.2056
+epoch 4 0.1537 0.2981
+epoch 5 0.1683 0.5663
+epoch 6 0.1449 0.2032
+epoch 7 0.1368 0.1606
+epoch 8 0.1376 0.1574
+seed 0
+epoch 1 0.2829 0.7789
+epoch 2 0.2043 0.2027
+epoch 3 0.1859 0.2354
+epoch 4 0.1553 0.1769
+epoch 5 0.1524 0.3713
+epoch 6 0.1502 0.2046
+epoch 7 0.1306 0.1957
+epoch 8 0.1339 0.2098
+seed 0
+epoch 1 0.4083 0.3597
+epoch 2 0.28 0.3958
+epoch 3 0.2525 0.2657
+epoch 4 0.2279 0.2318
+epoch 5 0.2221 0.3
+epoch 6 0.1995 0.2122
+epoch 7 0.1987 0.1897
+epoch 8 0.1841 0.1753
+seed 0
+epoch 1 0.2696 0.179
+epoch 2 0.1982 0.1667
+epoch 3 0.1817 1.2958
+epoch 4 0.1559 0.1629
+epoch 5 0.1602 1.988
+epoch 6 0.1517 0.1331
+epoch 7 0.1343 0.2558
+epoch 8 0.1374 0.1211
+seed 0
+epoch 1 0.2965 0.3275
+epoch 2 0.2116 0.1924
+epoch 3 0.1993 0.1676
+epoch 4 0.182 0.1985
+epoch 5 0.1804 0.5512
+epoch 6 0.1697 0.3111
+epoch 7 0.1555 0.2321
+epoch 8 0.1503 0.2487
+seed 0
+epoch 1 0.2834 0.6845
+epoch 2 0.2183 0.1689
+epoch 3 0.1968 0.1612
+epoch 4 0.18 0.1445
+epoch 5 0.1789 0.1352
+epoch 6 0.1656 0.1295
+epoch 7 0.1581 0.1363
+epoch 8 0.1482 0.1597
+seed 0
+epoch 1 0.3755 0.3076
+epoch 2 0.265 0.3218
+epoch 3 0.2353 0.2384
+epoch 4 0.2111 0.222
+epoch 5 0.2085 0.2593
+epoch 6 0.1858 0.2031
+epoch 7 0.1868 0.1698
+epoch 8 0.1727 0.1562
+seed 0
+epoch 1 0.2982 0.2402
+epoch 2 0.2215 0.1942
+epoch 3 0.205 0.1951
+epoch 4 0.1913 0.2436
+epoch 5 0.1829 0.1614
+epoch 6 0.1624 0.134
+epoch 7 0.1558 0.2146
+epoch 8 0.1534 0.4375
+seed 0
+epoch 1 0.2779 0.1972
+epoch 2 0.2013 0.2536
+epoch 3 0.186 0.1877
+epoch 4 0.1519 0.2009
+epoch 5 0.1704 0.6337
+epoch 6 0.1449 0.1425
+epoch 7 0.1388 0.1547
+epoch 8 0.1389 0.1664
+seed 0
+epoch 1 0.3417 0.2298
+epoch 2 0.235 0.8167
+epoch 3 0.2127 0.6657
+epoch 4 0.1803 0.1584
+epoch 5 0.1827 0.154
+epoch 6 0.1497 0.1531
+epoch 7 0.1502 0.1618
+epoch 8 0.1464 0.344
+seed 0
+epoch 1 0.2772 0.3432
+epoch 2 0.2081 0.2367
+epoch 3 0.1945 0.2264
+epoch 4 0.1663 0.1342
+epoch 5 0.1795 0.131
+epoch 6 0.1592 0.2592
+epoch 7 0.1488 0.1243
+epoch 8 0.1435 0.1264
+seed 0
+epoch 1 0.3356 0.2707
+epoch 2 0.2423 0.2927
+epoch 3 0.2139 0.1868
+epoch 4 0.1885 0.2018
+epoch 5 0.1895 0.1823
+epoch 6 0.1712 0.2228
+epoch 7 0.165 0.1682
+epoch 8 0.1569 0.1715
+budget: 12 random trials x 8 epochs, seed 0
+        lr  bs  dropout      wd     roc
+10  0.0014  16      0.0  0.0001  0.9877
+8   0.0015  32      0.0  0.0100  0.9874
+3   0.0038  64      0.0  0.0001  0.9866
+5   0.0020  16      0.2  0.0100  0.9862
+0   0.0013  32      0.0  0.0001  0.9850
+7   0.0040  32      0.5  0.0000  0.9840
+6   0.0002  16      0.5  0.0000  0.9822
+9   0.0007  64      0.5  0.0000  0.9820
+11  0.0002  16      0.0  0.0001  0.9808
+2   0.0001  16      0.5  0.0001  0.9797
+4   0.0071  32      0.0  0.0001  0.9781
+1   0.0018  64      0.0  0.0100  0.9744
+seed 0
+epoch 1 0.2655 0.3181
+epoch 2 0.1682 0.3173
+epoch 3 0.1277 0.1549
+epoch 4 0.0672 0.1708
+epoch 5 0.0593 0.3827
+epoch 6 0.0368 0.2083
+epoch 7 0.0221 0.2042
+epoch 8 0.0227 0.2747
+epoch 9 0.0307 0.3344
+epoch 10 0.0183 0.2808
+epoch 11 0.014 1.0098
+epoch 12 0.0177 0.3991
+epoch 13 0.0174 0.2448
+epoch 14 0.0077 0.273
+epoch 15 0.0059 0.3283
+epoch 16 0.0333 0.3412
+epoch 17 0.0263 0.5949
+epoch 18 0.0083 0.2682
+epoch 19 0.0037 0.2752
+epoch 20 0.02 0.367
+epoch 21 0.0237 0.2476
+epoch 22 0.0023 0.2449
+epoch 23 0.0015 0.2593
+epoch 24 0.0049 0.3154
+epoch 25 0.004 0.2556
+seed 0
+epoch 1 0.2772 0.3432
+epoch 2 0.2081 0.2367
+epoch 3 0.1945 0.2264
+epoch 4 0.1663 0.1342
+epoch 5 0.1795 0.131
+epoch 6 0.1592 0.2592
+epoch 7 0.1488 0.1243
+epoch 8 0.1435 0.1264
+epoch 9 0.1574 0.1199
+epoch 10 0.1458 0.1163
+epoch 11 0.1351 0.1339
+epoch 12 0.1356 0.1607
+epoch 13 0.1201 0.4397
+epoch 14 0.1266 0.1017
+epoch 15 0.1204 0.1344
+epoch 16 0.1246 0.3154
+epoch 17 0.1194 0.1142
+epoch 18 0.1077 0.1107
+epoch 19 0.1145 0.1112
+unregularised: val loss best at epoch 3 best 0.1549 final 0.2556
+regularised: stopped at epoch 19 best epoch 14 best 0.1017
+final threshold 0.4701522886753082
+ARI 0.7029539979826765 purity 0.9211065573770492
+mean    1.177633e+02
+std     5.939844e+01
+area    2.125047e+06
+ar      1.292837e+00
+dtype: float64
+mean    1.233752e+02
+std     5.671426e+01
+area    1.436932e+06
+ar      1.439760e+00
+dtype: float64
+FN 11 FP 13
+seed 0
+epoch 1 0.3489 0.3121
+epoch 2 0.2443 0.1909
+epoch 3 0.2169 0.247
+epoch 4 0.1895 0.3607
+epoch 5 0.2006 0.1523
+epoch 6 0.1827 0.2033
+epoch 7 0.1709 0.1464
+epoch 8 0.1598 0.1376
+epoch 9 0.1757 0.1336
+epoch 10 0.1584 0.2191
+epoch 11 0.1637 0.139
+epoch 12 0.1492 0.1436
+epoch 13 0.137 0.1342
+epoch 14 0.1457 0.1196
+epoch 15 0.1375 0.1195
+epoch 16 0.1392 0.2206
+epoch 17 0.1367 0.1126
+epoch 18 0.129 0.1041
+epoch 19 0.1335 0.1455
+epoch 20 0.122 0.1513
+epoch 21 0.1322 0.1128
+epoch 22 0.119 0.0921
+epoch 23 0.117 0.1183
+epoch 24 0.1174 0.1741
+epoch 25 0.1092 0.11

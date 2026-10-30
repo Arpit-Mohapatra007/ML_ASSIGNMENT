@@ -1,0 +1,26 @@
+cls    NORMAL  PNEUMONIA
+split                   
+test      234        390
+train    1341       3875
+val         8          8
+cls            NORMAL   PNEUMONIA
+h    mean     1378.65      819.55
+     std       343.02      270.86
+w    mean     1686.38     1195.07
+     std       305.32      285.15
+ar   mean        1.25        1.51
+     std         0.15        0.25
+area mean  2417479.93  1048972.46
+     std   1061580.80   605822.09
+mean mean      122.63      122.84
+     std        13.54       19.89
+std  mean       61.27       55.41
+     std         5.80        9.96
+grey mean        1.00        1.00
+     std         0.00        0.00
+exact 32
+pairs with hamming <= 0 34
+pairs with hamming <= 2 50
+pairs with hamming <= 4 265
+pairs with hamming <= 6 1970
+near within split 238 near train-test 26

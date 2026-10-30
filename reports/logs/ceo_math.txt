@@ -1,0 +1,13 @@
+seed 42
+/home/cse/mediscan/common.py:98: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:208.)
+  ix = torch.as_tensor(idx, device=dev)
+t=0.500 acc=0.954 missed=1.5 false_alarms=44.3 ppv=0.690
+t=0.470 acc=0.954 missed=1.5 false_alarms=44.3 ppv=0.690
+always normal: acc 0.9 missed 100.0
+99% accuracy allows 10.0 errors, and all of them can be missed sick children out of 100.0
+always pneumonia on the Kaggle test folder: 0.625
+internal test, final at camp prevalence: acc 0.954 missed 1.5 false_alarms 44.3 ppv 0.69 cost per 1000 75.2
+external, final at camp prevalence: acc 0.643 missed 4.2 false_alarms 352.9 ppv 0.213 cost per 1000 437.7
+internal test, bright/contrast aug at camp prevalence: acc 0.966 missed 3.5 false_alarms 30.7 ppv 0.759 cost per 1000 100.9
+external, bright/contrast aug at camp prevalence: acc 0.826 missed 4.5 false_alarms 169.1 ppv 0.361 cost per 1000 259.8
+refer everyone cost 900.0 always normal cost 2000.0 99% acc all misses 200.0 all false alarms 10.0

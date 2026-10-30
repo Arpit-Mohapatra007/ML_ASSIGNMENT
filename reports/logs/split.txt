@@ -1,0 +1,10 @@
+95% CI for 16/16: 0.7940927857921772 1.0
+largest groups [188  31  20  18  16] n groups 2592
+cls        NORMAL  PNEUMONIA
+role fold                   
+pool  0       264        713
+      1       264        712
+      2       264        712
+      3       264        712
+      4       263        712
+test -1       264        712
